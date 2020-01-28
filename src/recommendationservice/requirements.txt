@@ -1,0 +1,8 @@
+grpcio-tools
+grpcio
+python-json-logger
+grpcio-health-checking
+geopy
+six==1.12.0
+certifi==2018.11.29       # via requests
+chardet==3.0.4            # via requests

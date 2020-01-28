@@ -1,0 +1,16 @@
+{{ define "home" }}
+
+{{ template "header" . }}
+
+<body>
+<div class="container">
+    <ul>
+        {{range $.locations}}
+            <li>{{.Id}} - {{.Longitude}} : {{.Latitude}}</li>
+        {{end}}
+    </ul>
+</div>
+
+{{ template "footer" . }}
+
+{{ end }}

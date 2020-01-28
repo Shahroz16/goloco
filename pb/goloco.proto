@@ -1,0 +1,92 @@
+syntax = "proto3";
+
+package goloco;
+
+option go_package = "golocopb";
+
+// ---------------Location service----------
+
+service LocationService {
+    rpc SaveLocation (LocationRequest) returns (LocationResponse);
+    rpc GetLocation (GetLocationLocationRequest) returns (LocationResponse);
+    rpc UpdateLocation (LocationRequest) returns (LocationResponse);
+    rpc DeleteLocation (DeleteLocationLocationRequest) returns (DeletedLocationId);
+    rpc GetAllLocations (EmptyMessageRequest) returns (AllLocationsResponse);
+    rpc GetAllLocationsStream (EmptyMessageRequest) returns (stream LocationResponse);
+}
+
+message Location {
+    int32 id = 1;
+    string user_id = 2;
+    double latitude = 3;
+    double longitude = 4;
+    string timestamp = 5;
+}
+message LocationRequest {
+    Location location = 1;
+}
+message LocationResponse {
+    Location location = 1;
+}
+message AllLocationsResponse {
+    repeated Location location = 1;
+}
+message GetLocationLocationRequest {
+    int32 id = 1;
+}
+message DeleteLocationLocationRequest {
+    int32 id = 1;
+}
+message DeletedLocationId {
+    int32 id = 1;
+}
+message EmptyMessageRequest {
+}
+
+// ---------------Suggestions service----------
+
+service SuggestionService {
+    rpc ListSuggestions (ListSuggestionsRequest) returns (ListSuggestionsResponse);
+}
+
+message ListSuggestionsRequest {
+    string user_id = 1;
+    repeated string location_ids = 2;
+}
+
+message ListSuggestionsResponse {
+    repeated string location_ids = 1;
+}
+
+// ---------------Ad service----------
+
+service AdService {
+    rpc GetAds (AdRequest) returns (AdResponse);
+}
+
+message AdRequest {
+    repeated string context_keys = 1;
+}
+
+message AdResponse {
+    repeated Ad ads = 1;
+}
+
+message Ad {
+    string url_redirect = 1;
+    string text = 2;
+}
+
+// ---------------Search service----------
+
+service SearchService {
+    rpc SearchLocation (SearchRequest) returns (SearchResponse);
+}
+
+message SearchRequest {
+    string query = 1;
+}
+
+message SearchResponse {
+    repeated Location location = 1;
+}

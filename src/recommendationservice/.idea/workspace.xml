@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="11c2e4d6-38ea-46f9-91de-381fd4d12a21" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WXQH0ANgcJyI4NgkX4hQFMgPZE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager">
+    <configuration name="test_location_suggestions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="recommendationservice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_location_suggestions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_location_suggestions" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11c2e4d6-38ea-46f9-91de-381fd4d12a21" name="Default Changelist" comment="" />
+      <created>1579293368054</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579293368054</updated>
+      <workItem from="1579293378202" duration="37434000" />
+      <workItem from="1580154207584" duration="4019000" />
+      <workItem from="1580218307857" duration="5262000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="255" key="GridCell.Tab.0.bottom" timestamp="1580218857711">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.bottom/0.23.1440.801/1440.23.1920.1057@0.23.1440.801" timestamp="1579526227447" />
+    <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1580218857711" />
+    <state width="1398" height="255" key="GridCell.Tab.0.center" timestamp="1580218857710">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.center/0.23.1440.801/1440.23.1920.1057@0.23.1440.801" timestamp="1579526227446" />
+    <state width="1398" height="255" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1580218857710" />
+    <state width="1398" height="255" key="GridCell.Tab.0.left" timestamp="1580218857710">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.left/0.23.1440.801/1440.23.1920.1057@0.23.1440.801" timestamp="1579526227445" />
+    <state width="1398" height="255" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1580218857709" />
+    <state width="1398" height="255" key="GridCell.Tab.0.right" timestamp="1580218857711">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="210" key="GridCell.Tab.0.right/0.23.1440.801/1440.23.1920.1057@0.23.1440.801" timestamp="1579526227446" />
+    <state width="1398" height="255" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1580218857711" />
+    <state width="1398" height="255" key="GridCell.Tab.1.bottom" timestamp="1580218857976">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.1.bottom/0.23.1440.801/1440.23.1920.1057@0.23.1440.801" timestamp="1579526226925" />
+    <state width="1398" height="255" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1580218857976" />
+    <state width="1398" height="255" key="GridCell.Tab.1.center" timestamp="1580218857975">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.1.center/0.23.1440.801/1440.23.1920.1057@0.23.1440.801" timestamp="1579526226924" />
+    <state width="1398" height="255" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1580218857975" />
+    <state width="1398" height="255" key="GridCell.Tab.1.left" timestamp="1580218857974">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.1.left/0.23.1440.801/1440.23.1920.1057@0.23.1440.801" timestamp="1579526226924" />
+    <state width="1398" height="255" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1580218857974" />
+    <state width="1398" height="255" key="GridCell.Tab.1.right" timestamp="1580218857975">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.1.right/0.23.1440.801/1440.23.1920.1057@0.23.1440.801" timestamp="1579526226925" />
+    <state width="1398" height="255" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1580218857975" />
+    <state x="221" y="62" key="SettingsEditor" timestamp="1579335941526">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="221" y="62" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1579335941526" />
+    <state x="397" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1580218314102">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="397" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.801@0.23.1440.801" timestamp="1580218314102" />
+    <state x="378" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579379960300">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="378" y="45" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.801@0.23.1440.801" timestamp="1579379960300" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/recommendation_server.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/recommendationservice$test_location_suggestions.coverage" NAME="test_location_suggestions Coverage Results" MODIFIED="1580218857151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

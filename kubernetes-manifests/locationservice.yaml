@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: locationservice
+spec:
+  selector:
+    matchLabels:
+      app: locationservice
+  template:
+    metadata:
+      labels:
+        app: locationservice
+    spec:
+      terminationGracePeriodSeconds: 5
+      containers:
+        - name: server
+          image: locationservice
+          ports:
+            - containerPort: 3550
+          env:
+            - name: PORT
+              value: "3550"
+            - name: POSTGRES_ADDR
+              value: "postgres-external"
+          readinessProbe:
+            exec:
+              command: ["/bin/grpc_health_probe", "-addr=:3550"]
+          livenessProbe:
+            exec:
+              command: ["/bin/grpc_health_probe", "-addr=:3550"]
+          resources:
+            requests:
+              cpu: 100m
+              memory: 64Mi
+            limits:
+              cpu: 200m
+              memory: 128Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: locationservice
+spec:
+  type: ClusterIP
+  selector:
+    app: locationservice
+  ports:
+    - name: grpc
+      port: 3550
+      targetPort: 3550
