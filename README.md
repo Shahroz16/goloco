@@ -5,9 +5,9 @@
 
 ## Microservices
 There are 3 microservices running written in different languages communicating over GRPC.
-- frontend (written in Go-lang)
-- locationservice (written in Python)
-- recommendationservice (written in Kotlin)
+- frontend (written in `Golang`)
+- locationservice (written in `Python`)
+- recommendationservice (written in `Kotlin`)
 
 ## Database
 There are currently two databses that I added in the application
@@ -16,6 +16,12 @@ There are currently two databses that I added in the application
 
 ## Deployment
 Skaffold: Application is deployed to Kubernetes with a single command using Skaffold.
+
+## Communication
+- **[Kubernetes](https://kubernetes.io):**
+  The app is designed to run on Kubernetes.
+- **[gRPC](https://grpc.io):** Microservices use a high volume of gRPC calls to
+  communicate to each other.
 
 ## Installation
 1. Install tools to run a Kubernetes cluster locally:
